@@ -11,6 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 50vh;
 
 }
@@ -26,14 +27,23 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(0, 0, 0);
+img{
+    height: 150px;
+    width: 150px;
 }
-.dice h2{
-    text-align: center;
-}
+
 .dice{
     margin: 75px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 15px;
+    font-family:monospace;
+    padding: 20px 50px;
+    background-color: rgb(144, 48, 48);
+    color: aliceblue;
+    border-radius: 20px;
 }
